@@ -1,0 +1,128 @@
+/*---------------------------------------
+    contact               
+-----------------------------------------*/
+.contact-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+}
+.contact-title {
+  position: relative;
+  text-transform: uppercase;
+  color: #627792;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.contact-bg-img{
+  position: absolute;
+  /* left: -20vw; */
+  left: 25vw;
+  top: 10rem;
+  opacity: .1;
+  z-index: 0;
+}
+
+.contact-box {
+  position: relative;
+}
+.contact-item-box {
+  padding-left: 80px
+}
+.contact-item {
+  display: block;
+  width: 580px;
+  padding: 20px 0;
+  /* border-bottom: 1px solid #d5dde8; */
+}
+.contact-item-line {
+  width: 100%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #d5dde8;
+}
+
+.contact-box-position {
+  position: fixed;
+  margin-top: calc(200vh + 500px);
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background-color: #fff;
+  z-index: 0;
+}
+
+.contact-txt-title {
+  color: rgba(255, 255, 255, .5);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.contact-txt-desc {
+  margin-top: -5px;
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.contact-title-box {
+  position: relative;
+  margin-top: 5rem;
+}
+
+.contact-en {
+  position: absolute;
+  top: .5rem;
+  left: 1rem;
+  color: rgba(16, 31, 89, 0.5);
+  font-size: 6rem;
+  text-transform: uppercase;
+  z-index: 0;
+}
+
+.form-box {
+  color: #fff;
+  padding: 3rem;
+  background-color: rgba(23,41,120,.88);
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 36px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  /* background-image: none; */
+  border: 0px solid #ccc;
+  border-radius: 0px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.contact-bg {
+  background-image: url(/img/contactus.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center center;
+}
+
+.btn-default {
+  color: #fff;
+  background-color: #3986e4;
+  border-color: #3986e4;
+  margin-top: 2rem;
+  padding: 1rem 5rem;
+  border-radius: 0;
+}
+
+.banner-cloud-box {
+  position:relative;
+  z-index:0;
+}
+
+.contact-item-new {
+  display: inline-flex;
+  width:100%;
+}

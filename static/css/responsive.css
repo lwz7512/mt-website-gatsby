@@ -1,0 +1,79 @@
+/* Media Queries
+--------------------------------------------- */
+
+/* responsive */
+@media(max-width: 1366px) {
+
+}
+
+@media(max-width: 1280px) {
+
+}
+
+@media(max-width: 1024px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+  .timeline .swiper-slide::after {
+    right: -20%;
+    bottom: -12%;
+    width: 240px;
+    height: 50%;
+    box-shadow: -230px 0 150px 39vw rgba(0, 0, 0, 0.7);
+  }
+  .timeline .swiper-slide-content {
+    left: 15%;
+  }
+}
+
+
+@media(max-width: 1080px) {
+
+}
+
+@media (min-width: 992px){
+  .modal-dialog {
+    width: 90vw;
+    margin: 10vh auto !important;
+  }
+  .modal-lg {
+    width: 90vw;
+    height: 90vh;
+  }
+}
+
+@media(max-width: 640px) {
+
+}
+
+@media(max-width: 568px) {
+
+}
+
+@media(max-width: 480px) {
+
+}
+
+@media(max-width: 440px) {
+
+}
+
+@media(max-width: 414px) {
+
+}
+
+@media(max-width: 384px) {
+
+}
+
+@media(max-width: 375px) {
+
+}
+
+@media(max-width: 320px) {
+
+}
+
+
+
