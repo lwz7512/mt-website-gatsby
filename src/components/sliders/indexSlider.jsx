@@ -20,8 +20,8 @@ const IndexSlider = () => {
         <div className="swiper-slide">
           <div className="swiper-box">
             <div className="text center">
-                <p >AI assisted Operational ROV</p>
-                <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                <p className="banner-title">Nemo-AI Assisted Underwater Scanning ROV</p>
+                {/* <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p> */}
             </div>
             <img src="./img/pro-new-01.png" className="swiperImg" />
           </div>
@@ -32,8 +32,8 @@ const IndexSlider = () => {
         <div className="swiper-slide">
           <div className="swiper-box">
             <div className="text center">
-                <p >AI assisted Operational ROV</p>
-                <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                <p className="banner-title">Finding-AI Assisted Underwater Operating ROV</p>
+                {/* <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p> */}
             </div>
             <img src="./img/pro-new-02.png" className="swiperImg" />
           </div>

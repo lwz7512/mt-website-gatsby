@@ -123,13 +123,6 @@
   background-color: #1c2d55;
 }
 
-.banner-title {
-  /* font-size: 4rem; */
-  color: #fff;
-  text-transform : uppercase;
-  /* margin-top: 5rem; */
-}
-
 .mt-banner-conbox {
   position: absolute;
   top: 3vh;

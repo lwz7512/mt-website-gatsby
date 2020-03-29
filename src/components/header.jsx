@@ -13,7 +13,7 @@ const Header = ({ siteTitle, activeMenu }) => (
                       <span className="icon icon-bar"></span>
                   </button>
                   <Link to="/">
-                    <img className="logo" src="img/logo-base-hoz-noINC.svg" alt="" />
+                    <img className="logo" src="/img/logo-base-hoz-noINC.svg" alt="" />
                   </Link>
               </div>
               <div className="collapse navbar-collapse">
@@ -23,10 +23,30 @@ const Header = ({ siteTitle, activeMenu }) => (
                           PRODUCT
                         </Link>
                       </li>
-                      <li id="solu">
-                        <Link to="/solution" className={activeMenu=='solution'?'active':''}>
-                          SOLUTION
-                        </Link>
+                      <li id="solu" className="dropdown">
+                          <a href="#" 
+                            className={activeMenu=='solution'?'active dropdown-toggle':'dropdown-toggle'}
+                            data-toggle="dropdown" role="button" 
+                            aria-haspopup="true" aria-expanded="false">
+                              SOLUTION<span className="caret"></span>
+                            </a>
+                          <ul className="dropdown-menu">
+                              <li>
+                                <Link to="/solution/im">
+                                  Identifying and Mapping Ghost Gear
+                                </Link>
+                                </li>
+                              <li>
+                                <Link to="/solution/sc">
+                                  Sea Cucumber Mapping
+                                </Link>
+                              </li>
+                              <li>
+                                <Link to="/solution/sl">
+                                  Smart Lobster Processing Plant 
+                                </Link>
+                              </li>
+                          </ul>
                       </li>
                       <li id="contact-li">
                         <Link to="/contact" className={activeMenu=='contact'?'active':''}>
