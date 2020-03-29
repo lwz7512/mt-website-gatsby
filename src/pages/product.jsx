@@ -3,7 +3,7 @@
  * 
  * @2020/03/24
  */
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Layout from "../components/layout"
 import GradSlider from "../components/sliders/gradSlider"
 import InvetSlider from "../components/sliders/invetSlider"
@@ -17,7 +17,12 @@ import FindingSlider from "../components/sliders/findinSlider"
 
 export default function ProductPage() {
 
-    const hash = window.location.hash || '#SEAFDCORP' // default
+    const [hash, setHash] = useState('#SEAFDCORP');
+
+    useEffect(() => {
+        const nwhs = window.location.hash || '#SEAFDCORP' // default
+        setHash(nwhs)
+    }, [])
 
     return (
         <Layout activeMenu="product">
