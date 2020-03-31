@@ -1,0 +1,28 @@
+/* ---------------------------------------------
+ * recruit or career page style
+ * ---------------------------------------------
+ */
+
+.join-message {
+  margin-top: 50px;
+  padding: 10px 20px;
+  border-radius: 0;
+  background-color: #385190 ;
+  color: #fff;
+}
+
+.join-message p {
+  color: #FFF;
+}
+
+.join-message a {
+  color:#faee00;
+  padding-left: 4px;
+}
+
+.work-title {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #1657a7;
+  margin-bottom: 20px;
+}
