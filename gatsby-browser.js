@@ -22,6 +22,7 @@ import './static/css/page-home.css'
 import './static/css/page-product.css'
 import './static/css/page-solution.css'
 import './static/css/page-about.css'
+import './static/css/page-recruit.css'
 import './static/css/page-contact.css'
 import './static/css/page-news.css'
 // adaptive design at last!

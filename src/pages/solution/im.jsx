@@ -15,11 +15,13 @@ export default function IMPage() {
                 <span className="fisrt-text">I</span>dentifying and Mapping Ghost Gear
               </div>
 
-              <div className="col-md-6 col-sm-12">
+              <div className="col-md-6 col-sm-12 solutions-text">
                   <p>Ghost gear is fishing equipment that has been lost, disposed, or abandoned at sea. It is considered to be the most harmful form of marine debris, with more than 640,000 tons of gear lost to the ocean, each year, from both direct and indirect sources (such as intentional discard, severe weather, interaction with wildlife or shipping vessels, etc.).<br /><br />This negatively impacts the economy, as well as adversely affects the marine life. A study from World Animal Protection found that ghost gear contributes to 10% of all marine debris and that the gears takes approximately 600 years to decompose. Annually, more than 136,000 species of whales, dolphins, seals, and turtles become entangled, mutilated or killed by the ghost gear. Additionally, they found that fish stock declined by 5 to 30% due to ensnarement.</p>
               </div>
               <div className="col-md-6 col-sm-12 solutions-img">
-                  <img src="../img/solution/Identifying-and-Mapping-Ghost-Gear-1_md.jpg" />
+                <iframe 
+                    src="https://watch.cloudflarestream.com/f9ce58b9c5c86c9444bee2b032f33318" 
+                    style={{height: 280, width: 500, border: 0}}></iframe>
               </div>
 
               <div className="rows">

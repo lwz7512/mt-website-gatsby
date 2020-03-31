@@ -38,7 +38,7 @@ const Header = ({ siteTitle, activeMenu }) => (
                                 </li>
                               <li>
                                 <Link to="/solution/sc">
-                                  Sea Cucumber Mapping
+                                Sea Cucumber Fishing Strategy
                                 </Link>
                               </li>
                               <li>

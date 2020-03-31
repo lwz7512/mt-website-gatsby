@@ -5,6 +5,7 @@
  */
 import React from 'react'
 import Layout from "../components/layout"
+import SendResume from "../components/sendResume"
 
 export default function RecruitPage() {
 
@@ -51,15 +52,7 @@ export default function RecruitPage() {
                             <li>Code you can share. Send a link along with your email (github,gitlab etc). </li>
                             <li>Intellectual curiosity and the professional skill-set to excel in an open, highly collaborative environment.</li>
                         </ul>
-                        <div className="join-message">
-                            <h3>Contact</h3>
-                            <p>
-                              Please send your resume to 
-                              <a href="mailto:info@marinethinking.ca">
-                                info@marinethinking.ca
-                              </a>
-                            </p>
-                        </div>
+                        <SendResume />
                     </div>
                     
                     <div className="tab-pane fade padlr50" id="DataEngineer">
@@ -96,15 +89,7 @@ export default function RecruitPage() {
                             <li>Experience with containerization (Kubernetes) is a plus</li>
                             <li>Intellectual curiosity and the professional skill-set to excel in an open, highly collaborative environment.</li>
                         </ul>
-                        <div className="join-message">
-                            <h3>Contact</h3>
-                            <p >Please send your resume to 
-                              <a href="mailto:info@marinethinking.ca">
-                              info@marinethinking.ca
-                              </a>
-                            </p>
-                            <p >We thank all applicants for their interest, but only those selected for an interview will be contacted.</p>                                        
-                        </div>
+                        <SendResume />
                     </div>
 
                     <div className="tab-pane fade padlr50" id="DataAnalyst">
@@ -154,17 +139,7 @@ export default function RecruitPage() {
                             <li>Some knowledge of SQL, Python Benefits</li>
                             <li>Intellectual curiosity and the professional skill-set to excel in an open, highly collaborative environment</li>
                         </ul>
-                        <div className="join-message">
-                            <h3>Contact</h3>
-                            <p >Please send your resume to 
-                              <a href="mailto:info@marinethinking.ca">
-                                info@marinethinking.ca
-                              </a>
-                            </p>
-                            <p>
-                              We thank all applicants for their interest, but only those selected for an interview will be contacted.
-                            </p>                                        
-                        </div>
+                        <SendResume />
                     </div>
                 </div>
             </div>

@@ -15,12 +15,14 @@ export default function SCPage() {
                 <span className="fisrt-text">S</span>ea Cucumber Fishing Strategy
               </div>
 
-              <div className="col-md-6 col-sm-12">
+              <div className="col-md-6 col-sm-12 solutions-text">
                   <p>The Orange-Footed Sea Cucumber (Cucumaria frondosa), also known as the Northern Sea Cucumber, is a species of Echinoderm distributed across the Northern Atlantic and Arctic oceans. In Canada, it is commonly harvested at North West New Brunswick and Newfoundland. </p>
                   <p>Harvesting of these species in Canada began in the late 1980s, originally using a scallop drag attached to a vessel. Little modifications have happened since then, and those that have were designed to reduce by-catch and not to limit impact to seabed ecology. Current methods involve mobile drags, which are sea-urchin dredges modified for sea cucumber, and fishing areas are selected heavily based on past fishing expeditions and intuitive fishing. Sonar is used to detect the seafloor, however, provides no information on location of the sea cucumber themselves. </p>
               </div>
               <div className="col-md-6 col-sm-12 solutions-img">
-                  <img src="../img/solution/Sea-Cucumber-Fishing-Strategy-1_md.jpg" />
+                  <iframe 
+                    src="https://watch.cloudflarestream.com/06c37605de7f98171fb4515d77e0af34" 
+                    style={{height: 280, width: 500, border: 0}}></iframe>
               </div>
 
               <div className="col-md-12 col-sm-12 solutions-text">
