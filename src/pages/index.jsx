@@ -23,7 +23,7 @@ const IndexPage = () => (
                               <Link to="/solution/im">
                                 <div className="col-left-box pro-bg">
                                     <div className="col-left-info">
-                                        <p className="col-left-title">Retrieve Ghost Gear</p>
+                                        <p className="col-left-title">Identifying and Mapping Ghost Gear</p>
                                         <p className="col-left-more">Learn More ></p>
                                     </div>
                                 </div>
@@ -35,7 +35,7 @@ const IndexPage = () => (
                                       <Link to="/solution/sc">
                                         <div className="col-left-box">
                                             <div className="col-left-info" >
-                                                <p className="col-left-title">Sea cucumbers</p>
+                                                <p className="col-left-title">Sea Cucumber Fishing Strategy</p>
                                                 <p className="col-left-more">Learn More ></p>
                                             </div>
                                             <img src="./img/pro_03.png" className="solution-pro-right" />
@@ -46,7 +46,7 @@ const IndexPage = () => (
                                       <Link to="/solution/sl">
                                         <div className="col-left-box">
                                             <div className="col-left-info" >
-                                                <p className="col-left-title">Lobster Holding Facility</p>
+                                                <p className="col-left-title">Smart Lobster Processing Plant </p>
                                                 <p className="col-left-more">Learn More ></p>
                                             </div>
                                             <img src="./img/pro_04.png" className="solution-pro-right" />
@@ -66,7 +66,7 @@ const IndexPage = () => (
                         <Link to="/product#SEAFDCORP">
                           <div className="col-fs-box">
                               <div className="col-for-info" >
-                                  <p className="col-left-title">For <br />Seafood<br />Company</p>
+                                  <p className="col-left-title">For <br />Seafood<br />Companies</p>
                                   <p className="col-left-more">Learn More ></p>
                               </div>
                               <img src="./img/for_01.png" className="for-img" />

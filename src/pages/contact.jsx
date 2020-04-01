@@ -24,20 +24,18 @@ export default function ContactPage() {
                           <div className="contact-box">
                               <div className="contact-item">
                                   <div className="contact-item-new">
-                                      <img src="img/contact-icon-04.png" className="contact-icon" />
+                                      <img src="/img/contact-icon-04.png" className="contact-icon" />
                                       <div className="contact-item-line">
                                           <p className="contact-title">NB Office:</p>
                                           <p>300-1 Germain Street, Brunswick Square Business Tower, Saint John, NB E2L 4VL</p>
                                           <p className="contact-title">NS Office:</p>
                                           <p>Unit 108, 1505 Barrington Street, Halifax, Nova Scotia, Canada B3J 3K5</p>
-                                          <p className="contact-title">Beijing Office:</p>
-                                          <p>Floor 2, Building 2, No.14 Zhonghe Street, Beijing Economic-Technological Development Area</p>
                                       </div>
                                   </div>
                               </div>
                               <div className="contact-item">
                                   <div >
-                                      <img src="img/contact-icon-03.png" className="contact-icon" />
+                                      <img src="/img/contact-icon-03.png" className="contact-icon" />
                                       <div className="contact-item-line">
                                           <p className="contact-title">Telephone:</p>
                                           <p>+1 902 422-6888</p>
@@ -46,7 +44,7 @@ export default function ContactPage() {
                               </div>
                               <div className="contact-item">
                                   <div >
-                                      <img src="img/contact-icon-02.png" className="contact-icon" />
+                                      <img src="/img/contact-icon-02.png" className="contact-icon" />
                                       <div className="contact-item-line">
                                           <p className="contact-title">Fax:</p>
                                           <p>+1 902 425-2688</p>
@@ -55,7 +53,7 @@ export default function ContactPage() {
                               </div>
                               <div className="contact-item">
                                   <div >
-                                      <img src="img/contact-icon-01.png" className="contact-icon" />
+                                      <img src="/img/contact-icon-01.png" className="contact-icon" />
                                       <div className="contact-item-line">
                                           <p className="contact-title">E-mail:</p>
                                           <p>info@marinethinking.com</p>

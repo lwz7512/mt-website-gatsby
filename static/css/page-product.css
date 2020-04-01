@@ -425,11 +425,6 @@ video {
   /* height: 55vh; */
 }
 .tab-pane p.solution-pro-title {
-  /* position: absolute;
-  left: 15%;
-  bottom: 5%;
-  width: 100vw; */
-  /* background-color: rgba(0, 0, 0, 0.36); */
   padding: 10px;
   text-align: center;
   color: #fff;
@@ -438,14 +433,9 @@ video {
   /* for unified height of all the slide @2020/03/28 */
   height: 116px;
 }
-/* .solution-pro-title {
-  text-align: left;
-  color: #fff;
-  font-size: 28px;
-  margin:0 auto;
-  margin-top: 20px;
-  margin-left: 20px;
-} */
+.tab-pane p.solution-pro-title.smaller {
+  font-size: 26px;
+}
 .solution-pro-desc {
   text-align: left;
   color: #999;

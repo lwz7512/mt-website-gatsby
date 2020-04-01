@@ -36,7 +36,7 @@ export default function ProductPage() {
                                 <svg className="icon" aria-hidden="true">
                                     <use xlinkHref="#mt-icon-test"></use>
                                 </svg>
-                                Seafood Company
+                                Seafood Companies
                             </a>
                         </li>
                         <li role="presentation" 

@@ -38,12 +38,12 @@ const Header = ({ siteTitle, activeMenu }) => (
                                 </li>
                               <li>
                                 <Link to="/solution/sc">
-                                Sea Cucumber Fishing Strategy
+                                  Sea Cucumber Fishing Strategy
                                 </Link>
                               </li>
                               <li>
                                 <Link to="/solution/sl">
-                                  Smart Lobster Processing Plant 
+                                  Smart Lobster Processing Plant
                                 </Link>
                               </li>
                           </ul>
@@ -59,9 +59,9 @@ const Header = ({ siteTitle, activeMenu }) => (
                         </Link>
                       </li>
                       <li id="news">
-                        <Link to="/news" className={activeMenu=='news'?'active':''}>
+                        {/* <Link to="/news" className={activeMenu=='news'?'active':''}>
                           NEWS
-                        </Link>
+                        </Link> */}
                       </li>
                       <li id="about">
                         <Link to="/about" className={activeMenu=='about'?'active':''}>

@@ -20,8 +20,8 @@ const SecuritySlider = () => {
       <div className="swiper-slide">
         <div className="solution-pro-box">
           <img className="solution-pro-base" src="./img/solution/Security_Camera_System_01_md.jpg" />
-          <p className="solution-pro-title">
-          Security Camera System - Customized AI Assisted Watchman Feature
+          <p className="solution-pro-title smaller">
+          Security Camera System - Customized AI Assisted Watchman Feature, Extra Screen of False Alarm
           </p>
         </div>
       </div>
