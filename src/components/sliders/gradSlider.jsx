@@ -19,7 +19,7 @@ const GradSlider = () => {
 
       <div className="swiper-slide">
         <div className="solution-pro-box">
-          <img className="solution-pro-base" src="./img/solution/Customized_Grading_System_01_md.jpg" />
+          <img className="solution-pro-base" src="/img/solution/Customized_Grading_System_01.jpg" />
           <p className="solution-pro-title">
             Customized Grading System
           </p>
@@ -28,7 +28,7 @@ const GradSlider = () => {
 
       <div className="swiper-slide">
         <div className="solution-pro-box">
-          <img className="solution-pro-base" src="./img/solution/Customized_Grading_System_02_md.jpg" />
+          <img className="solution-pro-base" src="/img/solution/Customized_Grading_System_02.jpg" />
           <p className="solution-pro-title">
             More Efficient in Grading Less Dependent on Labour Market
           </p>
@@ -37,7 +37,7 @@ const GradSlider = () => {
 
       <div className="swiper-slide">
         <div className="solution-pro-box">
-          <img className="solution-pro-base" src="./img/solution/Customized_Grading_System_03_md.jpg" />
+          <img className="solution-pro-base" src="/img/solution/Customized_Grading_System_03.jpg" />
           <p className="solution-pro-title">
             Prevent Mortality Risk during Shipping, Track the Supplier’s Quality
           </p>
@@ -46,7 +46,7 @@ const GradSlider = () => {
 
       <div className="swiper-slide">
         <div className="solution-pro-box">
-          <img className="solution-pro-base" src="./img/solution/Customized_Grading_System_04_md.jpg" />
+          <img className="solution-pro-base" src="/img/solution/Customized_Grading_System_04.jpg" />
           <p className="solution-pro-title">
             A Real-Time Guideline for Your Grading and Management Team
           </p>
@@ -55,7 +55,7 @@ const GradSlider = () => {
 
       <div className="swiper-slide">
         <div className="solution-pro-box">
-          <img className="solution-pro-base" src="./img/solution/Customized_Grading_System_05_md.jpg" />
+          <img className="solution-pro-base" src="/img/solution/Customized_Grading_System_05.jpg" />
           <p className="solution-pro-title">
             Enhance Your Knowledge to Improve Your Business
           </p>

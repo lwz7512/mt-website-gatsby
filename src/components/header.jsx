@@ -18,6 +18,11 @@ const Header = ({ siteTitle, activeMenu }) => (
               </div>
               <div className="collapse navbar-collapse">
                   <ul className="nav navbar-nav navbar-right">
+                  <li id="about">
+                        <Link to="/about" className={activeMenu=='about'?'active':''}>
+                          ABOUT
+                        </Link>
+                      </li>
                       <li id="product">
                         <Link to="/product" className={activeMenu=='product'?'active':''}>
                           PRODUCT
@@ -33,17 +38,17 @@ const Header = ({ siteTitle, activeMenu }) => (
                           <ul className="dropdown-menu">
                               <li>
                                 <Link to="/solution/im">
-                                  Identifying and Mapping Ghost Gear
+                                  Identifying&nbsp;&nbsp;and&nbsp;&nbsp;Mapping&nbsp;&nbsp;Ghost&nbsp;&nbsp;Gear
                                 </Link>
                                 </li>
                               <li>
                                 <Link to="/solution/sc">
-                                  Sea Cucumber Fishing Strategy
+                                  Sea&nbsp;&nbsp;Cucumber&nbsp;&nbsp;Fishing&nbsp;&nbsp;Strategy
                                 </Link>
                               </li>
                               <li>
                                 <Link to="/solution/sl">
-                                  Smart Lobster Processing Plant
+                                  Smart&nbsp;&nbsp;Lobster&nbsp;&nbsp;Processing&nbsp;&nbsp;Plant
                                 </Link>
                               </li>
                           </ul>
@@ -62,11 +67,6 @@ const Header = ({ siteTitle, activeMenu }) => (
                         {/* <Link to="/news" className={activeMenu=='news'?'active':''}>
                           NEWS
                         </Link> */}
-                      </li>
-                      <li id="about">
-                        <Link to="/about" className={activeMenu=='about'?'active':''}>
-                          ABOUT
-                        </Link>
                       </li>
                   </ul>
               </div>

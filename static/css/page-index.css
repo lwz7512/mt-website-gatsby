@@ -1,6 +1,10 @@
 /*---------------------------------------
     index               
 -----------------------------------------*/
+.swiperImg {
+  height: 360px;
+}
+
 .banner-title {
   font-size: 4rem;
   line-height: 4rem;

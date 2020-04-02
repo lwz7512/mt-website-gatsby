@@ -17,6 +17,7 @@ import './static/css/delog.css'
 import "./static/css/customize.css"
 // website base style
 import './static/css/style.css'
+import './static/css/timeline.css'
 import './static/css/page-index.css'
 import './static/css/page-home.css'
 import './static/css/page-product.css'

@@ -19,7 +19,7 @@ const EnviroSlider = () => {
 
       <div className="swiper-slide">
         <div className="solution-pro-box">
-          <img className="solution-pro-base" src="./img/solution/Environment_Monitoring_System_01_md.jpg" />
+          <img className="solution-pro-base" src="/img/solution/Environment_Monitoring_System_01.jpg" />
           <p className="solution-pro-title">
             Environment Monitoring System
           </p>
@@ -28,7 +28,7 @@ const EnviroSlider = () => {
 
       <div className="swiper-slide">
         <div className="solution-pro-box">
-          <img className="solution-pro-base" src="./img/solution/Environment_Monitoring_System_02_md.jpg" />
+          <img className="solution-pro-base" src="/img/solution/Environment_Monitoring_System_02.jpg" />
           <p className="solution-pro-title">
           Minimizing the Risk of Mortality by Optimizing the Critical Environmental Factors of Water Tanks
           </p>
@@ -37,7 +37,7 @@ const EnviroSlider = () => {
 
       <div className="swiper-slide">
         <div className="solution-pro-box">
-          <img className="solution-pro-base" src="./img/solution/Environment_Monitoring_System_03_md.jpg" />
+          <img className="solution-pro-base" src="/img/solution/Environment_Monitoring_System_03.jpg" />
           <p className="solution-pro-title">
           Instant AI Assisted Adjustment Guideline to Achieve the Optimal Environmental Balance
           </p>
@@ -46,7 +46,7 @@ const EnviroSlider = () => {
 
       <div className="swiper-slide">
         <div className="solution-pro-box">
-          <img className="solution-pro-base" src="./img/solution/Environment_Monitoring_System_04_md.jpg" />
+          <img className="solution-pro-base" src="/img/solution/Environment_Monitoring_System_04.jpg" />
           <p className="solution-pro-title">
           Advance AI Assisted Adjustment Strategy Based on Inventory Changes
           </p>
@@ -55,7 +55,7 @@ const EnviroSlider = () => {
 
       <div className="swiper-slide">
         <div className="solution-pro-box">
-          <img className="solution-pro-base" src="./img/solution/Environment_Monitoring_System_05_md.jpg" />
+          <img className="solution-pro-base" src="/img/solution/Environment_Monitoring_System_05.jpg" />
           <p className="solution-pro-title">
           AI Screened Alarm Notification for Both on Site and Mobile Devices
           </p>
@@ -64,7 +64,7 @@ const EnviroSlider = () => {
 
       <div className="swiper-slide">
         <div className="solution-pro-box">
-          <img className="solution-pro-base" src="./img/solution/Environment_Monitoring_System_06_md.jpg" />
+          <img className="solution-pro-base" src="/img/solution/Environment_Monitoring_System_06.jpg" />
           <p className="solution-pro-title">
           As Many Sensors as You Need: Temperature, Oxygen, Light, pH, Ammonia, Ultrasonic Water Flow, Salinity, and More
           </p>

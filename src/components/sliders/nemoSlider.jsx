@@ -19,7 +19,7 @@ const NemoSlider = () => {
 
       <div className="swiper-slide">
         <div className="solution-pro-box">
-          <img className="solution-pro-base" src="./img/product/Nemo-1_md.jpg" />
+          <img className="solution-pro-base" src="/img/product/Nemo-1.jpg" />
           <p className="solution-pro-title">
             Nemo  AI Assisted Underwater Scanning ROV​
           </p>
@@ -28,7 +28,7 @@ const NemoSlider = () => {
 
       <div className="swiper-slide">
         <div className="solution-pro-box">
-          <img className="solution-pro-base" src="./img/product/Nemo-2_md.jpg" />
+          <img className="solution-pro-base" src="/img/product/Nemo-2.jpg" />
           <p className="solution-pro-title">
           Nemo has eight fast and flexible thrusters, allowing for high-speed autonomous cruising.​
           </p>
@@ -37,7 +37,7 @@ const NemoSlider = () => {
 
       <div className="swiper-slide">
         <div className="solution-pro-box">
-          <img className="solution-pro-base" src="./img/product/Nemo-3_md.jpg" />
+          <img className="solution-pro-base" src="/img/product/Nemo-3.jpg" />
           <p className="solution-pro-title">
           Suspended in strong currents, Nemo can scan 1,000 square meters in 10 minutes.​
           </p>
@@ -46,7 +46,7 @@ const NemoSlider = () => {
 
       <div className="swiper-slide">
         <div className="solution-pro-box">
-          <img className="solution-pro-base" src="./img/product/Nemo-4_md.jpg" />
+          <img className="solution-pro-base" src="/img/product/Nemo-4.jpg" />
           <p className="solution-pro-title">
           The 1080p camera with 6000 lumen lights enables live streaming of deep-water images in colour. 180 degree vision allows for earlier topside control.
           </p>
@@ -55,7 +55,7 @@ const NemoSlider = () => {
 
       <div className="swiper-slide">
         <div className="solution-pro-box">
-          <img className="solution-pro-base" src="./img/product/Nemo-5_md.jpg" />
+          <img className="solution-pro-base" src="/img/product/Nemo-5.jpg" />
           <p className="solution-pro-title">
           Videos captured via ROVs are processed in real-time by our AI recognition software, which allows for automatic identification and labeling (objects and marine life).​
           </p>
@@ -64,7 +64,7 @@ const NemoSlider = () => {
 
       <div className="swiper-slide">
         <div className="solution-pro-box">
-          <img className="solution-pro-base" src="./img/product/Nemo-6_md.jpg" />
+          <img className="solution-pro-base" src="/img/product/Nemo-6.jpg" />
           <p className="solution-pro-title">
           Additional utility module for sensors, cameras, lights and computing kits are available.
           </p>

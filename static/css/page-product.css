@@ -2,6 +2,10 @@
   product               
 -----------------------------------------*/
 
+#SEAFDCORP, #FISHERMEN {
+  position: relative;
+}
+
 .swiperSecond {
   display: block;
   position: relative;
@@ -314,7 +318,6 @@ video {
   z-index: 9;
 }
 
-
 .swiper-pagination-sc {
   position: absolute;
   width: 80px;
@@ -334,10 +337,6 @@ video {
   font-size: 0;
 }
 
-.paginationAll {
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 20px 30px;
-}
 .swiper-pagination-bullet-active {
   opacity: 1;
   background: #007aff;
@@ -443,20 +442,13 @@ video {
   /* margin-top: 10px; */
   margin-left: 20px;
 }
-.swiper-container-vertical > .swiper-pagination-bullets {
-  right: 10px;
-  top: 80% !important;
-  -webkit-transform: translate3d(0px, -50%, 0);
-  -moz-transform: translate3d(0px, -50%, 0);
-  -o-transform: translate(0px, -50%);
-  -ms-transform: translate3d(0px, -50%, 0);
-  transform: translate3d(0px, -50%, 0);
-}
 
-.swiperImg {
-  height: 360px;
-}
-.swiper-bgc-blue {
-  background: #0e1d5d;
-  height: 100vh;
+/* TRICKY: fix anchor navigation hidden by header bar */
+/* 80px; fixed header height*/
+/* -80px 0 0; negative fixed header height */
+#solution .tab-content :target::before {
+  content: "";
+  display: block;
+  height: 80px;
+  margin: -80px 0 0;
 }

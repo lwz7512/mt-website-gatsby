@@ -38,7 +38,7 @@ const IndexPage = () => (
                                                 <p className="col-left-title">Sea Cucumber Fishing Strategy</p>
                                                 <p className="col-left-more">Learn More ></p>
                                             </div>
-                                            <img src="./img/pro_03.png" className="solution-pro-right" />
+                                            <img src="./img/pro_04.png" className="solution-pro-right" />
                                         </div>
                                       </Link>
                                   </div>
@@ -46,10 +46,12 @@ const IndexPage = () => (
                                       <Link to="/solution/sl">
                                         <div className="col-left-box">
                                             <div className="col-left-info" >
-                                                <p className="col-left-title">Smart Lobster Processing Plant </p>
+                                                <p className="col-left-title">
+                                                    Smart&nbsp;Lobster&nbsp;Processing Plant
+                                                </p>
                                                 <p className="col-left-more">Learn More ></p>
                                             </div>
-                                            <img src="./img/pro_04.png" className="solution-pro-right" />
+                                            <img src="./img/pro_03_fix.png" className="solution-pro-right" />
                                         </div>
                                       </Link>
                                   </div>

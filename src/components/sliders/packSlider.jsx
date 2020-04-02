@@ -19,7 +19,7 @@ const PackingSlider = () => {
 
       <div className="swiper-slide">
         <div className="solution-pro-box">
-          <img className="solution-pro-base" src="./img/solution/Packing_System_01_md.jpg" />
+          <img className="solution-pro-base" src="/img/solution/Packing_System_01.jpg" />
           <p className="solution-pro-title">
           Packing System
           </p>
@@ -28,7 +28,7 @@ const PackingSlider = () => {
 
       <div className="swiper-slide">
         <div className="solution-pro-box">
-          <img className="solution-pro-base" src="./img/solution/Packing_System_02_md.jpg" />
+          <img className="solution-pro-base" src="/img/solution/Packing_System_02.jpg" />
           <p className="solution-pro-title">
           Task Guideline for Packing Team, Also Accessible Remotely for Management Team
           </p>
@@ -37,7 +37,7 @@ const PackingSlider = () => {
 
       <div className="swiper-slide">
         <div className="solution-pro-box">
-          <img className="solution-pro-base" src="./img/solution/Packing_System_03_md.jpg" />
+          <img className="solution-pro-base" src="/img/solution/Packing_System_03.jpg" />
           <p className="solution-pro-title">
           Customized Hardware Infrastructure to Fit your Holding Facility
           </p>
@@ -46,7 +46,7 @@ const PackingSlider = () => {
 
       <div className="swiper-slide">
         <div className="solution-pro-box">
-          <img className="solution-pro-base" src="./img/solution/Packing_System_04_md.jpg" />
+          <img className="solution-pro-base" src="/img/solution/Packing_System_04.jpg" />
           <p className="solution-pro-title">
           Based on Smart Scale Reader, Compatible to all Popular Scales on Market
           </p>
@@ -55,7 +55,7 @@ const PackingSlider = () => {
 
       <div className="swiper-slide">
         <div className="solution-pro-box">
-          <img className="solution-pro-base" src="./img/solution/Packing_System_05_md.jpg" />
+          <img className="solution-pro-base" src="/img/solution/Packing_System_05.jpg" />
           <p className="solution-pro-title">
           Connected to Other Links of Atlanet Ecosystem
           </p>
@@ -64,7 +64,7 @@ const PackingSlider = () => {
 
       <div className="swiper-slide">
         <div className="solution-pro-box">
-          <img className="solution-pro-base" src="./img/solution/Packing_System_06_md.jpg" />
+          <img className="solution-pro-base" src="/img/solution/Packing_System_06.jpg" />
           <p className="solution-pro-title">
           Know the Working Performance of Your Team to Help Your Management
           </p>
