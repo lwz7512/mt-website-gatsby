@@ -61,40 +61,6 @@
   width: 75%;
   padding: 120px 0 0 0;
 }
-.about-right-box {
-  /* float: right; */
-  width: 78vw;
-  margin: 0 auto;
-  padding: 120px 0;
-}
-.right-about-st {
-  font-size: 1.5rem;
-  color: #1c2d55;
-}
-.right-about-text {
-  padding: 30px 0;
-}
-.right-about-text p{
-  color: #1c2d55;
-  font-size: 3rem;
-  line-height: 2rem;
-}
-.right-logo {
-  width: 5rem;
-  margin-bottom: 2rem;
-}
-.right-desc {
-  width: 100%;
-  padding: 20px 0;
-}
-.right-desc p{
-  font-size: 1.5rem;
-  line-height: 1rem;
-  color: #627792;
-}
-.right-about-img {
-  width: 100%;
-}
 .solution-item {
   display: block;
   padding: 0;
@@ -177,7 +143,7 @@
   /* width: calc((100% - 15rem) * 1); */
 }
 
-.mt-banner-markbox-background {
+/* .mt-banner-markbox-background {
   position: absolute;
   top: 0;
   right: 0;
@@ -185,9 +151,9 @@
   left: 0;
   background: rgba(23,41,120,.9);
   mix-blend-mode: multiply;
-}
+} */
 
-.mt-banner-markbox-foreground {
+/* .mt-banner-markbox-foreground {
   position: relative;
   background: rgba(23,41,120,.5);
   color: #fff;
@@ -195,7 +161,7 @@
   font-weight: 400;
   transform: translateZ(0);
   padding: 3rem 6rem 3rem;
-}
+} */
 
 .mt-banner-title {
   position: relative;
@@ -242,8 +208,4 @@
   padding: 0;
   z-index:9;
   padding-top: 50px;
-}
-
-.right-about-title {
-  display: inline;
 }

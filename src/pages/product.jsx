@@ -73,7 +73,7 @@ export default function ProductPage() {
     return (
       <Layout activeMenu="product">
         <section id="solution" 
-          className="section-product base-bg timeline swiper-container-vertical">
+          className="section-product base-bg timeline ">
             <div className="section textCenter ">
                 <div className="nav-box navbar-tranp">
                     <ul id="myTab" className="nav nav-tabs nav-justified" >
@@ -218,11 +218,11 @@ export default function ProductPage() {
                     <span 
                         className={(0 <= point && point < 2/3) ? ActiveBullet : HideBullet}
                         onClick={()=>scrollTo(0)}>
-                        Customized Grading System
+                        Nemo
                     </span>
                     <span className={(2/3 <= point && point < 1.5) ? ActiveBullet : HideBullet}
                         onClick={()=>scrollTo(2/3)}>
-                        Inventory Management System
+                        Finding
                     </span>
                 </div>
             }

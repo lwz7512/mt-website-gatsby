@@ -2,14 +2,15 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-// import Image from "../components/image"
 import SEO from "../components/seo"
 import IndexSlider from "../components/sliders/indexSlider"
 
 const IndexPage = () => (
     <Layout activeMenu="/">
           <SEO title="Home" />
+
           <div className="mt-container">
+
               <div id="section-banner">
                   <div id="index-banner" className="index-banner">
                       <IndexSlider />
@@ -62,7 +63,6 @@ const IndexPage = () => (
               </div>
           
               <div className="pad-50-bottom forSomeBody">
-                  
                   <div className="row">
                       <div className="col-md-6 col-sm-12 forSomeBox">
                         <Link to="/product#SEAFDCORP">
@@ -88,6 +88,7 @@ const IndexPage = () => (
                       </div>
                   </div>
               </div>
+
           </div>
     </Layout>
 )

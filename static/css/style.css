@@ -27,7 +27,6 @@
   vertical-align: -0.15em;
   fill: currentColor;
   overflow: hidden;
-  margin-right: 10px;
 }
 
 body {
@@ -539,55 +538,6 @@ a:hover, a:active, a:focus {
   /* 复原 */
   /* mix-blend-mode: unset; */
 }
-
-
-
-/*---------------------------------------
-    footer               
------------------------------------------*/
-
-.footer {
-  display: inline-flex;
-  width: 100%;
-  background-color: #1c2d55;
-  padding: 2rem;
-}
-
-.footer-copyright {
-  color: #fff !important;
-  font-size: 1.5rem;
-  text-align: left;
-  margin-left: 50px;
-  padding-top: 4px;
-}
-
-.footer-logo {
-  width: 100px;
-  /* float: left; */
-}
-
-.footer-box {
-  display: inline-flex;
-  margin: 0 auto;
-  padding: 1rem 0;
-  text-align: center;
-}
-
-.footer-share-box {
-  float: right;
-}
-
-.footer-share-box ul {
-  display: inline-flex;
-}
-
-.footer-share-box ul li {
-  padding: 2rem;
-  background-color: #666;
-  list-style-type:none;
-  margin: 0 5px;
-}
-
 
 /*
 * ENGLISH

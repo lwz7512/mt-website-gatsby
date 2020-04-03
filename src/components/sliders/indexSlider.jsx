@@ -4,7 +4,7 @@ import Slider from "react-slick"
 const IndexSlider = () => {
 
   const settings = {
-    autoplay: true,  
+    autoplay: true,
     dots: true,
     infinite: true,
     speed: 500,
@@ -39,7 +39,6 @@ const IndexSlider = () => {
           </div>
         </div>
       </div>
-
     </Slider>
   )
 }

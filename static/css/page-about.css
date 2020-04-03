@@ -286,3 +286,41 @@
 .for-img {
   width: 100%;
 }
+
+.about-right-box {
+  /* float: right; */
+  width: 78vw;
+  margin: 0 auto;
+  padding: 120px 0;
+}
+.right-about-st {
+  font-size: 1.5rem;
+  color: #1c2d55;
+}
+.right-about-text {
+  padding: 30px 0;
+}
+.right-about-text p{
+  color: #1c2d55;
+  font-size: 3rem;
+  line-height: 4rem;
+}
+.right-logo {
+  width: 5rem;
+  margin-bottom: 2rem;
+}
+.right-desc {
+  width: 100%;
+  padding: 20px 0;
+}
+.right-desc p{
+  font-size: 1.5rem;
+  line-height: 1rem;
+  color: #627792;
+}
+.right-about-img {
+  width: 100%;
+}
+.right-about-title {
+  display: inline;
+}

@@ -7,22 +7,17 @@ const Header = ({ siteTitle, activeMenu }) => (
     <div className="navbar navbar-default navbar-tranp" role="navigation" style={{zIndex: 99}}>
         <div className="container">
               <div className="navbar-header">
+                  <Link to="/">
+                    <img className="logo" src="/img/logo-base-hoz-noINC.svg" alt="" />
+                  </Link>
                   <button className="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                       <span className="icon icon-bar"></span>
                       <span className="icon icon-bar"></span>
                       <span className="icon icon-bar"></span>
                   </button>
-                  <Link to="/">
-                    <img className="logo" src="/img/logo-base-hoz-noINC.svg" alt="" />
-                  </Link>
               </div>
               <div className="collapse navbar-collapse">
                   <ul className="nav navbar-nav navbar-right">
-                  <li id="about">
-                        <Link to="/about" className={activeMenu=='about'?'active':''}>
-                          ABOUT
-                        </Link>
-                      </li>
                       <li id="product">
                         <Link to="/product" className={activeMenu=='product'?'active':''}>
                           PRODUCT
@@ -38,20 +33,25 @@ const Header = ({ siteTitle, activeMenu }) => (
                           <ul className="dropdown-menu">
                               <li>
                                 <Link to="/solution/im">
-                                  Identifying&nbsp;&nbsp;and&nbsp;&nbsp;Mapping&nbsp;&nbsp;Ghost&nbsp;&nbsp;Gear
+                                  Identifying&nbsp;and&nbsp;Mapping&nbsp;Ghost&nbsp;Gear
                                 </Link>
                                 </li>
                               <li>
                                 <Link to="/solution/sc">
-                                  Sea&nbsp;&nbsp;Cucumber&nbsp;&nbsp;Fishing&nbsp;&nbsp;Strategy
+                                  Sea&nbsp;Cucumber&nbsp;Fishing&nbsp;Strategy
                                 </Link>
                               </li>
                               <li>
                                 <Link to="/solution/sl">
-                                  Smart&nbsp;&nbsp;Lobster&nbsp;&nbsp;Processing&nbsp;&nbsp;Plant
+                                  Smart&nbsp;Lobster&nbsp;Processing&nbsp;Plant
                                 </Link>
                               </li>
                           </ul>
+                      </li>
+                      <li id="about">
+                        <Link to="/about" className={activeMenu=='about'?'active':''}>
+                          ABOUT
+                        </Link>
                       </li>
                       <li id="contact-li">
                         <Link to="/contact" className={activeMenu=='contact'?'active':''}>
