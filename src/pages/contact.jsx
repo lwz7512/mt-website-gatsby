@@ -34,7 +34,7 @@ export default function ContactPage() {
                                   </div>
                               </div>
                               <div className="contact-item">
-                                  <div >
+                                  <div className="contact-item-new">
                                       <img src="/img/contact-icon-03.png" className="contact-icon" />
                                       <div className="contact-item-line">
                                           <p className="contact-title">Telephone:</p>
@@ -43,7 +43,7 @@ export default function ContactPage() {
                                   </div>
                               </div>
                               <div className="contact-item">
-                                  <div >
+                                  <div className="contact-item-new">
                                       <img src="/img/contact-icon-02.png" className="contact-icon" />
                                       <div className="contact-item-line">
                                           <p className="contact-title">Fax:</p>
@@ -52,7 +52,7 @@ export default function ContactPage() {
                                   </div>
                               </div>
                               <div className="contact-item">
-                                  <div >
+                                  <div className="contact-item-new">
                                       <img src="/img/contact-icon-01.png" className="contact-icon" />
                                       <div className="contact-item-line">
                                           <p className="contact-title">E-mail:</p>

@@ -25,7 +25,6 @@
 .swiperSecond .slick-dots,
 .swiperThird .slick-dots {
   bottom: 25px;
-  /* position: static; */
 }
 
 .solution-top-list {
@@ -39,9 +38,6 @@
 }
 .solution-card {
   height: 480px;
-}
-.solution-banner-img {
-
 }
 .solution-banner img {
   width: 100%;
@@ -193,31 +189,7 @@
 .row-pad {
   padding: 60px 0;
 }
-.solution-video {
-  width: calc(66% + 20px);
-  margin: 0 auto;
-  padding: 0;
-}
 
-video {
-  position: relative !important;
-  width: 100% !important;
-  /* margin: auto;
-  position: absolute;
-  z-index: -1;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  visibility: visible;
-  opacity: 1;
-  width: 100vw;
-  height: auto; */
-  /* height: 100vh; */
-}
-.video {
-  width: 100%;
-  margin: 60px 0;
-}
 
 .solution-md-5p {
   padding: 0 10px !important;
@@ -446,9 +418,13 @@ video {
 /* TRICKY: fix anchor navigation hidden by header bar */
 /* 80px; fixed header height*/
 /* -80px 0 0; negative fixed header height */
-#solution .tab-content :target::before {
+#product .tab-content :target::before {
   content: "";
   display: block;
   height: 80px;
   margin: -80px 0 0;
+}
+
+#product .tab-content {
+  padding-top: 80px;
 }

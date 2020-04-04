@@ -27,7 +27,7 @@ const AboutPage = () => (
                         <p>Our services include Smart seafood processing eco-system and revolutionary fish harvesting solutions.</p>
                         <p>At Marine Thinking, We believe that cutting-edge technologies can help the seafood industry thrive efficiently and develop sustainably.</p>
                     </div>
-                    <img src="img/index-about-img.png" className="right-about-img" alt="" />
+                    <img src="/img/index-about-img.png" className="right-about-img" alt="" />
 
                 </div>
             </div>

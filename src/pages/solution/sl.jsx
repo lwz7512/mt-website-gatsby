@@ -11,14 +11,15 @@ export default function SLPage() {
     <Layout activeMenu="solution">
       <div class="solutions-container">
           <div class="solutions-box">
-              <div class="solutions-big-title"><span class="fisrt-text">S</span>mart Lobster Processing Plant</div>
+              <div class="solutions-big-title">
+                  <span class="fisrt-text">S</span>mart Lobster Processing Plant
+              </div>
               <div class="col-md-6 col-sm-12 solutions-text">
                   <p>Our Smart Factory was born from our vision to improve the traditional methods used in seafood harvesting with sustainable technology. We began from analyzing Atlantic Canada’s iconic lobster industry. Routed in traditional labour-intensive techniques, lobster fishing has been the livelihood for many people, specifically in the North Atlantic of Canada, for centuries. The industry has suffered and flourished within an ever-changing economy. Factory methods are heavily based on manual efforts that are highly inefficient, yield high-error rates and have high potential for danger. Without standardization and sustainable management, factories are unable to compete with the demand for large-scale production from the international market.</p>
               </div>
               <div class="col-md-6 col-sm-12 solutions-img">
-                <iframe 
-                    src="https://watch.cloudflarestream.com/cd1b8bb64cb8fb4d636b5617901c5213" 
-                    style={{height: 280, width: 500, border: 0}}></iframe>
+                <iframe className="cloud-video-frame"
+                    src="https://watch.cloudflarestream.com/cd1b8bb64cb8fb4d636b5617901c5213"></iframe>
               </div>
 
               <div class="col-md-12 col-sm-12 solutions-text">
@@ -30,10 +31,10 @@ export default function SLPage() {
               </div>
 
               <div class="col-md-6 col-sm-12 solutions-text solutions-img">
-                  <img src="../img/solution/Smart-Lobster-Processing-Plant-1_md.jpg" />
+                  <img src="/img/solution/Smart-Lobster-Processing-Plant-1_md.jpg" />
               </div>
               <div class="col-md-6 col-sm-12 solutions-text solutions-img">
-                  <img src="../img/solution/Smart-Lobster-Processing-Plant-2_md.jpg" />
+                  <img src="/img/solution/Smart-Lobster-Processing-Plant-2_md.jpg" />
               </div>
 
               <div class="col-md-12 col-sm-12 solutions-text">
@@ -45,7 +46,7 @@ export default function SLPage() {
               </div>
 
               <div class="col-md-6 col-sm-12 solutions-img">
-                  <img src="../img/solution/Smart-Lobster-Processing-Plant-3_md.jpg" />
+                  <img src="/img/solution/Smart-Lobster-Processing-Plant-3_md.jpg" />
               </div>
               <div class="col-md-6 col-sm-12">
                   <p>With the help from AI, our Environmental Monitoring System can capture, analyze, process and store data such as water-flow, temperature, salinity, oxygen, and more. As time passes, our system will learn your factory setup and be able to proactively make recommendations or provide solutions based on the parameters of your selected environmental variables to improve quality assurance. Our unique AI algorism will suggest the best adjustment method for you based on the holding change data from Inventory Management System. This will assist to mitigate problematic issues that may occur in your factory and significantly reduce mortality. </p>
@@ -56,10 +57,10 @@ export default function SLPage() {
               </div>
 
               <div class="col-md-6 col-sm-12 solutions-text solutions-img">
-                  <img src="../img/solution/Smart-Lobster-Processing-Plant-4_md.jpg" />
+                  <img src="/img/solution/Smart-Lobster-Processing-Plant-4_md.jpg" />
               </div>
               <div class="col-md-6 col-sm-12 solutions-text solutions-img">
-                  <img src="../img/solution/Smart-Lobster-Processing-Plant-5_md.jpg" />
+                  <img src="/img/solution/Smart-Lobster-Processing-Plant-5_md.jpg" />
               </div>
 
               <div class="col-md-12 col-sm-12 solutions-text">

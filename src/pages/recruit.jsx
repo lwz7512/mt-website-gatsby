@@ -11,8 +11,8 @@ export default function RecruitPage() {
 
   return (
     <Layout activeMenu="recruit">
-      <section id="recruit" className="section-about base-bg">
-        <div className="section textCenter pad-50">
+      <section id="recruit" className="section-recruit base-bg">
+        <div className="section textCenter ">
             <div className="recruit-box">
                 <ul id="myTab" className="nav nav-pills nav-justified" >
                     <li role="presentation" className="active">

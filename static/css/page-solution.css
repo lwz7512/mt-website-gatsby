@@ -3,7 +3,6 @@
 -----------------------------------------*/
 
 .solutions-container {
-  /* min-height: 100vh; */
   padding: 0 0 50px 0;
 }
 
@@ -51,4 +50,10 @@
 
 .clear {
   clear: both;
+}
+
+.cloud-video-frame {
+  height: 280px;
+  width: 500px;
+  border: 0
 }

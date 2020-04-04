@@ -20,9 +20,8 @@ export default function SCPage() {
                   <p>Harvesting of these species in Canada began in the late 1980s, originally using a scallop drag attached to a vessel. Little modifications have happened since then, and those that have were designed to reduce by-catch. Unfortunately, that same basic design and deployment continues to have a significant impact to seabed ecology. The current method involves mobile drags, which are sea-urchin dredges modified for sea cucumber, and fishing areas are selected heavily based on past fishing expeditions and intuitive fishing. Sonar is used to detect the seafloor, however, provides no information on the precise location of the sea cucumber.</p>
               </div>
               <div className="col-md-6 col-sm-12 solutions-img">
-                  <iframe 
-                    src="https://watch.cloudflarestream.com/06c37605de7f98171fb4515d77e0af34" 
-                    style={{height: 280, width: 500, border: 0}}></iframe>
+                  <iframe className="cloud-video-frame"
+                    src="https://watch.cloudflarestream.com/06c37605de7f98171fb4515d77e0af34"></iframe>
               </div>
 
               <div className="col-md-12 col-sm-12 solutions-text">
@@ -30,7 +29,7 @@ export default function SCPage() {
               </div>
 
               <div className="col-md-6 col-sm-12 solutions-text solutions-img">
-                  <img src="../img/solution/Sea-Cucumber-Fishing-Strategy-1_md.jpg" />
+                  <img src="/img/solution/Sea-Cucumber-Fishing-Strategy-1_md.jpg" />
               </div>
               <div className="col-md-6 col-sm-12 solutions-text solutions-text">
                   <p>We at Marine Thinking have identified the growing sea cucumber industry as an area of concern that can be mitigated with the help of our semi-automated fishing method using remotely operated vehicles (ROV). Based on sea cucumber harvesting and exploitation around the world, we believe that there is a social responsibility to employ an effective management solution proactively. Our ROV has the ability to assist in the reconciliation of sustainable harvest and the socio-economic importance of the sea cucumber fisheries.</p>
@@ -38,10 +37,10 @@ export default function SCPage() {
 
               <div className="rows">
                   <div className="col-md-6 col-sm-12 solutions-text solutions-img">
-                      <img src="../img/solution/Sea-Cucumber-Fishing-Strategy-2_md.jpg" />
+                      <img src="/img/solution/Sea-Cucumber-Fishing-Strategy-2_md.jpg" />
                   </div>
                   <div className="col-md-6 col-sm-12 solutions-text solutions-img">
-                      <img src="../img/solution/Sea-Cucumber-Fishing-Strategy-3_md.jpg" />
+                      <img src="/img/solution/Sea-Cucumber-Fishing-Strategy-3_md.jpg" />
                   </div>    
               </div>
               

@@ -6,6 +6,7 @@ const InvetSlider = () => {
   const settings = {
     autoplay: false,  
     dots: true,
+    lazyLoad: true,
     infinite: true,
     speed: 500,
     autoplaySpeed: 2000,

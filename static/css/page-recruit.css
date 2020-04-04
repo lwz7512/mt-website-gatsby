@@ -3,6 +3,12 @@
  * ---------------------------------------------
  */
 
+ .section-recruit {
+  position: relative;
+  padding: 45px 0 0 0;
+  background-color: transparent;
+}
+
 .join-message {
   margin-top: 50px;
   padding: 10px 20px;

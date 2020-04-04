@@ -25,6 +25,13 @@
     color: transparent;
   }
   
+  .slick-dots li button:before {
+    font-size: 6px;
+  }
+
+  .nav-pills > li + li {
+    margin-left: 0;
+  }
 
 }
 
@@ -127,19 +134,6 @@
     /* height: 100vh; */
     /* height: calc( 100vh - 120px); */
   }
-  video {
-    margin: auto;
-    position: absolute;
-    z-index: -1;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    visibility: visible;
-    opacity: 1;
-    width: auto;
-    height: 100vh;
-    /* height: 100vh; */
-  }
   .mt-banner-conbox {
     height: 100vh;
   }
@@ -168,116 +162,9 @@
     z-index:9;
     padding-top: 0;
   }
-  .right-about-text {
-    padding: 30px 50px;
-  }
-  .right-about-text p{
-    color: #1c2d55;
-    font-size: 3rem;
-    line-height: 3rem;
-  }
-  .right-desc {
-    width: 100%;
-    padding: 20px 0;
-  }
-  .right-desc p{
-    font-size: 2rem;
-    line-height: 2rem;
-    color: #627792;
-  }
   .mt-banner-markbox {
     position: relative;
     margin-top: 5vh;
-  }
-  .about-right-box {
-    float: left;
-    width: 100%;
-    padding: 30px 20px 0 20px;
-  }
-
-  .about-main {
-    width: 100%;
-    position: relative;
-    display: block;
-    background-color: #0e1d5d;
-  }
-  .about {
-    position: relative;
-    padding-top: 0;
-    padding-bottom: 0;
-    height: 100vh;
-  }
-  .about-content {
-    position: relative;
-    height: auto;
-    padding: 50px 10px 0 10px;
-    background-color: #0e1d5d;
-  }
-  .about-text {
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    margin-top: 15vh;
-    padding: 0 15vw;
-  }
-  .about-text-box {
-    position: relative;
-    width: 100%;
-    margin: 0 auto;
-    font-size: 2.5rem;
-  }
-  .about-img {
-    width: 80px;
-  }
-  .about-bg {
-    background-image: url(/img/about-img-phone.jpg);
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-    background-position: center center; 
-  }
-  .about-bg-img {
-    width: 100%;
-    left: 5vw;
-    transform: rotate(-60deg);
-    opacity: .05;
-  }
-  .about-phone-box {
-    display: block !important;
-    position: relative;
-    height: 100vh;
-  }
-  /* .about-bg-banner {
-    width: auto;
-    height: 100%;
-  } */
-  .mt-about-img {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-  }
-  .mt-about-img-img {
-    width: 100%;
-    margin: 0 auto;
-  }
-  .mt-about-right {
-    position: relative;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -moz-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-align: stretch;
-    -moz-align-items: stretch;
-    align-items: stretch;
-    -ms-flex-pack: start;
-    -moz-justify-content: flex-start;
-    justify-content: flex-start;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    padding-left: 3rem;
-    font-weight: 300;
-    display: none;
   }
  
   .solution-info {
@@ -364,9 +251,6 @@
     min-height: 66vh;
     margin-top: 0;
     padding: 0;
-  }
-  .solution-video {
-    display: none;
   }
   .atlanet-banner-img {
     /* background-color: #343434; */
@@ -504,9 +388,7 @@
     width: 100vw;
     margin: 0 auto;
   }
-  .padlr50 {
-    padding: 0 30px;
-  }
+  
   .nav-justified > li > a {
     margin-bottom: 0;
     text-align: center;
@@ -603,7 +485,7 @@
   .index-banner {
     width: 100vw;
     margin-top: 45px;
-    height: calc(100vh - 40px);
+    height: calc(100vh - 80px);
   }
 
   .col-left-info {
@@ -641,26 +523,16 @@
   }
   .nav-box {
     position: absolute;
-    top: 48px;
+    top: 45px;
     width: 100%;
     z-index: 9;
   }
   .nav-box .nav > li > a {
     position: relative;
     display: block;
-    opacity: .5;
     padding: 15px !important;
   }
-  .nav-tabs.nav-justified > li > a {
-    border-bottom: 1px solid #ddd;
-    border-radius: 0;
-    font-size: 16px;
-    color: #fff;
-    border: 0px solid #ddd;
-  }
-  .nav-tabs.nav-justified > li {
-    float: left;
-  }
+  
   /* ------- index slider component ------- */
 
   .swiper-box {
@@ -702,5 +574,202 @@
     text-align: center;
   }
 
+  /* ---------- product page --------- */
+  /* --------------------------------- */
+
+  .nav-tabs.nav-justified > li > a {
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+    font-size: 16px;
+    color: #fff;
+    border: 0px solid #ddd;
+  }
+  .nav-tabs.nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  .nav-tabs > li.active > a,
+  .nav-tabs > li.active > a:hover,
+  .nav-tabs > li.active > a:focus {
+    color: #fff;
+    opacity: 1;
+    border: 0px solid #ddd !important;
+    background-color: #071242 !important;
+  }
+
+  .nav-tabs.nav-justified > li > a {
+    margin-bottom: 0;
+  }
+
+  #product .tab-content {
+    padding-top: 94px;
+  }
+
+  .tab-pane p.solution-pro-title {
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+    /* for unified height of all the slide @2020/03/28 */
+    height: 80px;
+    width: 100%;
+  }
+  
+  .swiperSecond .slick-dots,
+  .swiperThird .slick-dots {
+    bottom: 0;
+  }
+
+  .solution-pro-box {
+    margin: 0;
+  }
+
+  .col-md-10 {
+    padding: 0;
+  }
+
+  /* ------------- solution page --------------- */
+  /* ------------------------------------------- */
+
+  .solutions-big-title {
+    font-size: 4rem;
+  }
+
+  .cloud-video-frame {
+    height: 180px;
+    width: 100%;
+    border: 0
+  }
+  
+  .solutions-box {
+    padding: 80px 10px 0px 10px;
+  }
+
+  .solutions-text {
+    padding: 0;
+  }
+
+  .solutions-img {
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .solutions-container {
+    padding: 0 0 20px 0
+  }
+
+  /* ---------- about page ------------- */
+  /* ----------------------------------- */
+
+  .about-right-box {
+    float: left;
+    width: 100%;
+    padding: 30px 0px 0 0px;
+  }
+
+  .about-main {
+    width: 100%;
+    position: relative;
+    display: block;
+    background-color: #0e1d5d;
+  }
+  .about {
+    position: relative;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 100vh;
+  }
+  .about-content {
+    position: relative;
+    height: auto;
+    padding: 50px 10px 0 10px;
+    background-color: #0e1d5d;
+  }
+  .about-text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 15vh;
+    padding: 0 15vw;
+  }
+  .about-text-box {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 2.5rem;
+  }
+  .about-img {
+    width: 80px;
+  }
+  .about-bg {
+    background-image: url(/img/about-img-phone.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center center; 
+  }
+  .about-bg-img {
+    width: 100%;
+    left: 5vw;
+    transform: rotate(-60deg);
+    opacity: .05;
+  }
+  .about-phone-box {
+    display: block !important;
+    position: relative;
+    height: 100vh;
+  }
+
+  .right-about-text {
+    padding: 20px 20px;
+  }
+  .right-about-text p{
+    color: #1c2d55;
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .right-desc {
+    width: 100%;
+    padding: 20px 0;
+  }
+  .right-desc p{
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #627792;
+  }
+  .right-about-img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* ---------- contac page --------------- */
+  /* -------------------------------------- */
+
+  .section-about {
+    padding: 48px 0 0 0;
+  }
+
+  /* ----------- recruit page ------------ */
+  /* ------------------------------------- */
+
+  .padlr50 {
+    padding: 0 0px;
+  }
+
+  .work-title {
+    padding: 0 20px;
+  }
+
+  .section-recruit p {
+    padding: 0 20px;
+  }
+
+  .work-list-title {
+    padding: 0 20px;
+  }
+
+  .section-recruit .tab-content ul {
+    padding-right: 20px;
+  }
 
 }

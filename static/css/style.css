@@ -684,7 +684,8 @@ a:hover, a:active, a:focus {
   padding: 3rem;
 }
 .padlr50 {
-  padding: 50px;
+  /* padding: 50px; */
+  padding: 50px 0 50px 0;
 }
 .tab-pane {
   /* border-bottom: 1px solid #777; */

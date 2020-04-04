@@ -72,7 +72,7 @@ export default function ProductPage() {
 
     return (
       <Layout activeMenu="product">
-        <section id="solution" 
+        <section id="product" 
           className="section-product base-bg timeline ">
             <div className="section textCenter ">
                 <div className="nav-box navbar-tranp">
@@ -103,7 +103,7 @@ export default function ProductPage() {
 
                     <div id="SEAFDCORP" 
                         className={hash==='#SEAFDCORP'?'tab-pane fade in active':'tab-pane fade'}>
-                        <div className="swiperSecond" style={{marginTop: 80}}>
+                        <div className="swiperSecond">
                             <div className="row">
                                 <div className="col-md-1 "></div>
                                 <div className="col-md-10 ">
@@ -161,7 +161,7 @@ export default function ProductPage() {
 
                     <div id="FISHERMEN" 
                         className={hash==='#FISHERMEN'?'tab-pane fade in active':'tab-pane fade'}>
-                        <div className="swiperSecond" style={{marginTop: 80}}>
+                        <div className="swiperSecond">
                             <div className="row">
                                 <div className="col-md-1 "></div>
                                 <div className="col-md-10 ">
