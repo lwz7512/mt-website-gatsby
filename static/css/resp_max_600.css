@@ -39,7 +39,7 @@
 @media (max-width: 600px){
   
   .pad-50 {
-    padding: 20px 0 10px 0;
+    padding: 20px 0 0px 0;
   }
 
   .pad-50-bottom {
@@ -517,6 +517,7 @@
   }
   .solution-card {
     height: auto;
+    padding-bottom: 20px;
   }
   .solution-pro-m {
     width: 40%;
@@ -542,6 +543,7 @@
   .swiperImg {
     width: 80%;
     height: auto;
+    margin-top: 20px;
   }
 
   /* index slider title */

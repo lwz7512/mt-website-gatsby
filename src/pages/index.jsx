@@ -19,7 +19,7 @@ const IndexPage = () => (
           
               <div className="pad-50">
                   <div className="solution-section">
-                      <div className="row solution-card">
+                      <div className="row">
                           <div className="col-md-6 col-sm-12 solution-card">
                               <Link to="/solution/im">
                                 <div className="col-left-box pro-bg">
