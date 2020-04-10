@@ -40,16 +40,16 @@ const InvetSlider = () => {
         <div className="solution-pro-box">
           <img className="solution-pro-base" src="/img/solution/Inventory_Management_System_03.jpg" />
           <p className="solution-pro-title">
-            Suitable to Different Numbers of Holding Tanks and Working Procedures
+            Suitable to Different Quantities of Holding Tanks and Working Procedures
           </p>
         </div>
       </div>
 
       <div className="swiper-slide">
         <div className="solution-pro-box">
-          <img className="solution-pro-base" src="/img/solution/Inventory_Management_System_04.jpg" />
+          <img className="solution-pro-base" src="/img/solution/Inventory_Management_System-4_fix.jpg" />
           <p className="solution-pro-title">
-            Connected to Other Links of Atlanet for Lobster Holding Facility Ecosystem
+            Connected to Other Links of Atlanet for Lobster Plant Ecosystem
           </p>
         </div>
       </div>

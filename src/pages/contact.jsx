@@ -27,9 +27,9 @@ export default function ContactPage() {
                                       <img src="/img/contact-icon-04.png" className="contact-icon" />
                                       <div className="contact-item-line">
                                           <p className="contact-title">NB Office:</p>
-                                          <p>300-1 Germain Street, Brunswick Square Business Tower, Saint John, NB E2L 4VL</p>
+                                          <p>Suite 300, 1 Germain Street, Saint John, New Brunswick Canada E2L 4V1</p>
                                           <p className="contact-title">NS Office:</p>
-                                          <p>Unit 108, 1505 Barrington Street, Halifax, Nova Scotia, Canada B3J 3K5</p>
+                                          <p>Suite 108, 1505 Barrington Street, Halifax, Nova Scotia Canada B3J 3K5</p>
                                       </div>
                                   </div>
                               </div>

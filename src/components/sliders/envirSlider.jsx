@@ -22,7 +22,7 @@ const EnviroSlider = () => {
         <div className="solution-pro-box">
           <img className="solution-pro-base" src="/img/solution/Environment_Monitoring_System_01.jpg" />
           <p className="solution-pro-title">
-            Environment Monitoring System
+            Environmental Monitoring System
           </p>
         </div>
       </div>
@@ -47,7 +47,7 @@ const EnviroSlider = () => {
 
       <div className="swiper-slide">
         <div className="solution-pro-box">
-          <img className="solution-pro-base" src="/img/solution/Environment_Monitoring_System_04.jpg" />
+          <img className="solution-pro-base" src="/img/solution/Environmental_Monitoring_System-4_fix.jpg" />
           <p className="solution-pro-title">
           Advance AI Assisted Adjustment Strategy Based on Inventory Changes
           </p>
@@ -67,7 +67,7 @@ const EnviroSlider = () => {
         <div className="solution-pro-box">
           <img className="solution-pro-base" src="/img/solution/Environment_Monitoring_System_06.jpg" />
           <p className="solution-pro-title">
-          As Many Sensors as You Need: Temperature, Oxygen, Light, pH, Ammonia, Ultrasonic Water Flow, Salinity, and More
+          Sensors Customized to You Need: Temperature, Oxygen, Light, pH, Ammonia, Ultrasonic Water Flow, Salinity, and More
           </p>
         </div>
       </div>

@@ -20,13 +20,14 @@ const IndexPage = () => (
               <div className="pad-50">
                   <div className="solution-section">
                       <div className="row">
-                          <div className="col-md-6 col-sm-12 solution-card">
+                          <div className="col-md-6 col-sm-12 index-left-card">
                               <Link to="/solution/im">
-                                <div className="col-left-box pro-bg">
+                                <div className="col-left-box">
                                     <div className="col-left-info">
                                         <p className="col-left-title">Identifying and Mapping Ghost Gear</p>
                                         <p className="col-left-more">Learn More ></p>
                                     </div>
+                                    <img src="./img/pro_bg_01.png" className="solution-pro-right" />
                                 </div>
                               </Link>
                           </div>

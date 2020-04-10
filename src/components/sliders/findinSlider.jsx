@@ -49,7 +49,7 @@ const FindingSlider = () => {
         <div className="solution-pro-box">
           <img className="solution-pro-base" src="/img/product/Finding-4.jpg" />
           <p className="solution-pro-title">
-          Finding can be fitted with a mechanical arm to catch its underwater target.​
+          Finding can be fitted with a mechanical arm to retrieve its underwater target.
           </p>
         </div>
       </div>
@@ -58,7 +58,7 @@ const FindingSlider = () => {
         <div className="solution-pro-box">
           <img className="solution-pro-base" src="/img/product/Finding-5.jpg" />
           <p className="solution-pro-title">
-          Additional utility module for sensors, cameras, shipboard power supply, and computing kits are available.
+          Additional utility modules for sensors, cameras, shipboard power supply, and computing kits are available.
           </p>
         </div>
       </div>

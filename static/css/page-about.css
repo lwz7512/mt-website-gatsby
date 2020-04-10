@@ -313,8 +313,9 @@
 }
 .right-desc p{
   font-size: 1.5rem;
-  line-height: 1rem;
+  line-height: 2.5rem;
   color: #627792;
+  margin-bottom: 20px;
 }
 .right-about-img {
   width: 100%;

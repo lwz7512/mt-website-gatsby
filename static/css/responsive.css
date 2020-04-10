@@ -12,35 +12,14 @@
 
 @media(max-width: 1024px) {
 
-}
-
-@media screen and (min-width: 1024px) {
-  .timeline .swiper-slide::after {
-    right: -20%;
-    bottom: -12%;
-    width: 240px;
-    height: 50%;
-    box-shadow: -230px 0 150px 39vw rgba(0, 0, 0, 0.7);
+  .nav > li > a {
+    padding: 10px 20px !important;
   }
-  .timeline .swiper-slide-content {
-    left: 15%;
-  }
-}
 
+}
 
 @media(max-width: 1080px) {
 
-}
-
-@media (min-width: 992px){
-  .modal-dialog {
-    width: 90vw;
-    margin: 10vh auto !important;
-  }
-  .modal-lg {
-    width: 90vw;
-    height: 90vh;
-  }
 }
 
 @media(max-width: 640px) {
@@ -76,4 +55,69 @@
 }
 
 
+/* ----------------- min size width -------------------- */
+/* ----------------------------------------------------- */
+
+/* large screen */
+@media screen and (min-width: 1366px) {
+
+  .swiperImg {
+    height: 480px;
+  }
+
+  .swiper-box {
+    margin-top: 10%;
+  }
+
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+
+  /* hide logo */
+  .container > .navbar-header {
+    display: none;
+  }
+
+  .navbar-right {
+    float: left !important;
+  }
+
+}
+
+@media (min-width: 600px) and (max-width: 758px) {
+
+  .solution-pro-right {
+    right: auto;
+    width: 55%;
+    height: auto;
+  }
+
+  .for-img {
+    width: 59%;
+    height: auto;
+  }
+
+  .right-column-top {
+    margin-top: 20px;
+  }
+
+}
+
+
+/* macbook pro screen */
+@media screen and (min-width: 1280px) {
+  
+
+}
+
+@media (min-width: 992px){
+  .modal-dialog {
+    width: 90vw;
+    margin: 10vh auto !important;
+  }
+  .modal-lg {
+    width: 90vw;
+    height: 90vh;
+  }
+}
 

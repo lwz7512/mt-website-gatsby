@@ -40,7 +40,7 @@ const GradSlider = () => {
         <div className="solution-pro-box">
           <img className="solution-pro-base" src="/img/solution/Customized_Grading_System_03.jpg" />
           <p className="solution-pro-title">
-            Prevent Mortality Risk during Shipping, Track the Supplier’s Quality
+            Reduce Mortality Risk during Shipping, Track the Supplier’s Quality
           </p>
         </div>
       </div>

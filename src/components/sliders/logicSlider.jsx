@@ -31,7 +31,7 @@ const LogisticSlider = () => {
         <div className="solution-pro-box">
           <img className="solution-pro-base" src="/img/solution/Logistics_Tracking_System_02.jpg" />
           <p className="solution-pro-title">
-          Real-Time Tracking for Inside/Ambient Temperature, Shock, and Location
+          Real-Time Tracking for Location and Internal Environment— Ambient Temperature and Shock
           </p>
         </div>
       </div>
@@ -40,14 +40,14 @@ const LogisticSlider = () => {
         <div className="solution-pro-box">
           <img className="solution-pro-base" src="/img/solution/Logistics_Tracking_System_03.jpg" />
           <p className="solution-pro-title">
-          Cloud Based Information Accessible to Different Authorized Users at Same Time
+          Cloud Based Information Accessible to Multiple Authorized Users Simultaneously
           </p>
         </div>
       </div>
 
       <div className="swiper-slide">
         <div className="solution-pro-box">
-          <img className="solution-pro-base" src="/img/solution/Logistics_Tracking_System_04.jpg" />
+          <img className="solution-pro-base" src="/img/solution/Logistics_Tracking_System-4_fix.jpg" />
           <p className="solution-pro-title">
           If Something Goes Wrong with Your Lobsters, We Help you to Find out WHY
           </p>

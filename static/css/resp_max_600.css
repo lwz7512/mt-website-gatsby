@@ -47,7 +47,7 @@
   }
 
   .navbar {
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgb(54, 29, 29);
     position: fixed;
     width: 100%;
     top: 0;
@@ -67,8 +67,15 @@
     width: 25vw;
     padding: 0;
     margin: 1.2rem;
-    /* padding: 0; */
   }
+
+  /* --------- top menu collapse in mobile device */
+  .container > .navbar-collapse {
+    width: 100%;
+    background-color: #1c2d55 !important;
+  }
+
+  
   .navbar-collapse {
     padding-right: 15px;
     padding-left: 15px;
@@ -84,15 +91,13 @@
   }
   .navbar-toggle {
     position: relative;
-    /* float: right; */
     padding: 6px 8px;
     margin-top: 8px;
     margin-right: 10px;
     margin-bottom: 8px;
-    background-color: #333;
+    background-color: transparent;
     background-image: none;
     border: none;
-    /* border: 1px solid #666; */
     border-radius: 0px;
   }
 
@@ -104,11 +109,6 @@
     flex-direction: column;
   }
 
-  .container > .navbar-collapse {
-    /* background-color: rgba(0,0,0) !important; */
-    width: 100%;
-    background-color: #333 !important;
-  }
   .witer-op {
     color: rgba(255, 255, 255, .75);
   }
@@ -493,10 +493,14 @@
   }
   
   .index-bannerBg-01 {
-    background-image: url('../img/banner.jpg');
+    background-image: url('../img/banner_fix.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center center; 
+  }
+
+  .index-left-card {
+    height: 230px;
   }
 
   .col-left-box {
@@ -508,12 +512,17 @@
     background-color: #f8f8f8;
     overflow: hidden;
   }
+  .right-column-top {
+    padding: 10px 5px 0px 5px;
+  }
   .forSomeBox {
     padding: 10px;
     overflow: hidden;
   }
   .marBottom20 {
     margin: 0;
+    padding-left: 5px;
+    padding-right: 5px;
   }
   .solution-card {
     height: auto;

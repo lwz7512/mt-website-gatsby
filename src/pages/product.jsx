@@ -27,12 +27,19 @@ export default function ProductPage() {
     useEffect(() => {
         const nwhs = window.location.hash || '#SEAFDCORP' // default
         setHash(nwhs)
+        // hide the top navigtion bar lazyly
+        setTimeout(() => {
+            animateTo(document.documentElement, 80, 100)
+        }, 500)
     }, [])
 
     useEffect(() => {
         // waiting rendering completed to scroll
         setTimeout(()=>{
-            scrollTo(0)
+            // show top navbar
+            // scrollTo(0)
+            
+            // scroll to show the top navbar while switching tabs
             const swPagination = document.querySelector('.swiper-pagination')
             if(swPagination) swPagination.style.bottom = 0 // popup side menu
         }, 500)
@@ -53,6 +60,21 @@ export default function ProductPage() {
         let percent = scrollTop / (totalHeight - windowHt)
         // console.log(percent)
         setPoint(percent)
+
+        const swPagination = document.querySelector('.swiper-pagination')
+        if(!swPagination) return  // check null first
+        if(percent > point && scrollTop > 80){// scroll beyond navbar then hide
+            swPagination.style.bottom = '-370px' // hide side menu
+        }else{
+            swPagination.style.bottom = 0 // popup side menu
+        }
+
+        const tabsBox = document.querySelector('.nav-box')
+        
+        if(scrollTop < 80) return tabsBox.classList.remove('fixedTop')
+        if(tabsBox.classList.contains('fixedTop')) return
+        tabsBox.classList.add('fixedTop')
+
     }
 
     const scrollTo = index => {
@@ -74,31 +96,34 @@ export default function ProductPage() {
       <Layout activeMenu="product">
         <section id="product" 
           className="section-product base-bg timeline ">
+
+            <div className="nav-box">
+                <ul id="myTab" className="nav nav-tabs nav-justified" >
+                    <li role="presentation" 
+                        className={hash==='#SEAFDCORP'?'active':''}
+                        onClick={()=>hashChangeHandler('#SEAFDCORP')}>
+                        <a href="#SEAFDCORP" role="tab" data-toggle="pill">
+                            <svg className="icon" aria-hidden="true">
+                                <use xlinkHref="#mt-icon-test"></use>
+                            </svg>
+                            &nbsp;&nbsp;Seafood Companies
+                        </a>
+                    </li>
+                    <li role="presentation" 
+                        className={hash==='#FISHERMEN'?'active':''}
+                        onClick={()=>hashChangeHandler('#FISHERMEN')}>
+                        <a href="#FISHERMEN" role="tab" data-toggle="pill">
+                            <svg className="icon" aria-hidden="true">
+                                <use xlinkHref="#mt-winfo-icon-chuanbotuli"></use>
+                            </svg>
+                            &nbsp;&nbsp;Fishermen
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
             <div className="section textCenter ">
-                <div className="nav-box navbar-tranp">
-                    <ul id="myTab" className="nav nav-tabs nav-justified" >
-                        <li role="presentation" 
-                            className={hash==='#SEAFDCORP'?'active':''}
-                            onClick={()=>hashChangeHandler('#SEAFDCORP')}>
-                            <a href="#SEAFDCORP" role="tab" data-toggle="pill">
-                                <svg className="icon" aria-hidden="true">
-                                    <use xlinkHref="#mt-icon-test"></use>
-                                </svg>
-                                Seafood Companies
-                            </a>
-                        </li>
-                        <li role="presentation" 
-                            className={hash==='#FISHERMEN'?'active':''}
-                            onClick={()=>hashChangeHandler('#FISHERMEN')}>
-                            <a href="#FISHERMEN" role="tab" data-toggle="pill">
-                                <svg className="icon" aria-hidden="true">
-                                    <use xlinkHref="#mt-winfo-icon-chuanbotuli"></use>
-                                </svg>
-                                Fishermen
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                
                 <div id="myTabContent" className="tab-content">
 
                     <div id="SEAFDCORP" 
@@ -197,7 +222,7 @@ export default function ProductPage() {
                     </span>
                     <span className={(2/6 <= point && point < 3/6) ? ActiveBullet : HideBullet}
                         onClick={()=>scrollTo(2/6)}>
-                        Environment Monitoring System
+                        Environmental Monitoring System
                     </span>
                     <span className={(3/6 <= point && point < 4/6) ? ActiveBullet : HideBullet}
                         onClick={()=>scrollTo(3/6)}>
