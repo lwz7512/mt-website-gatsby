@@ -456,7 +456,7 @@ a:hover, a:active, a:focus {
   border-radius: 0 !important;
 }
 .nav-box {
-  /* display: flex; */
+  width: 100%;
   position: absolute;
   top: 80px;
   z-index: 9;
