@@ -6,7 +6,7 @@
 .footer {
   display: inline-flex;
   width: 100%;
-  background-color: #1c2d55;
+  background-color: var(--mt-blue);
   padding: 2rem;
 }
 

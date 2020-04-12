@@ -118,7 +118,7 @@
 
   .navbar-default .navbar-toggle:hover,
   .navbar-default .navbar-toggle:focus {
-    background-color: #1c2d55;
+    background-color: var(--mt-blue);
   }
 
 }

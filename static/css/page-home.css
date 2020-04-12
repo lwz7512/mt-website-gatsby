@@ -73,7 +73,7 @@
   height: 1px;
   margin-top: .8rem;
   margin-right: 1rem;
-  background-color: #1c2d55;
+  background-color: var(--mt-blue);
 }
 
 .mt-banner-conbox {

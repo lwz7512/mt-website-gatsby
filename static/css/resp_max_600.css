@@ -72,7 +72,7 @@
   /* --------- top menu collapse in mobile device */
   .container > .navbar-collapse {
     width: 100%;
-    background-color: #1c2d55 !important;
+    background-color: var(--mt-blue) !important;
   }
 
   
@@ -735,7 +735,7 @@
     padding: 20px 20px;
   }
   .right-about-text p{
-    color: #1c2d55;
+    color: var(--mt-blue);
     font-size: 2rem;
     line-height: 3rem;
   }

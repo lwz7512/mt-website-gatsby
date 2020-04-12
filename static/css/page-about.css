@@ -293,13 +293,13 @@
 }
 .right-about-st {
   font-size: 1.5rem;
-  color: #1c2d55;
+  color: var(--mt-blue);
 }
 .right-about-text {
   padding: 30px 0;
 }
 .right-about-text p{
-  color: #1c2d55;
+  color: var(--mt-blue);
   font-size: 3rem;
   line-height: 4rem;
 }
