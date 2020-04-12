@@ -250,7 +250,7 @@
   /* height: 100vh; */
   margin: 0 auto;
   padding: 50px 10px 0 10px;
-  background-color: #0e1d5d;
+  background-color: var(--mt-blue);
   height: calc( 100vh - 95px );
 }
 

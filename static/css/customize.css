@@ -22,7 +22,7 @@
 }
 .nav-pills > li.active > a {
   color: #fff;
-  background-color: #0e1d5d !important;
+  background-color: var(--mt-blue) !important;
 }
 
 .navbar {

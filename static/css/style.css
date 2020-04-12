@@ -2,6 +2,10 @@
  * marinethinking website 1.0.2
  */
 
+ :root {
+  --mt-blue: #0e1d5d;
+ }
+
 @font-face {
   font-family: 'webfont';
   font-display: swap;
@@ -432,7 +436,7 @@ a:hover, a:active, a:focus {
 
 .index-big-title {
   font-size: 6rem;
-  color: #0e1d5d;
+  color: var(--mt-blue);
 }
 /* 
 .active {

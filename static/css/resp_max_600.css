@@ -220,14 +220,14 @@
   .solution-banner{
     height: 100vh;
     margin-top: 0;
-    background-color: #0e1d5d;
+    background-color: var(--mt-blue);
     overflow: hidden;
   }
   .solution-banner-atlanet{
     /* height: auto; */
     height: 100vw;
     margin-top: 0;
-    background-color: #0e1d5d;
+    background-color: var(--mt-blue);
     overflow: hidden;
   }
   .solution-box-title {
@@ -247,7 +247,7 @@
     color: #666;
   }
   .solution-container-up {
-    background-color: #0e1d5d;
+    background-color: var(--mt-blue);
     min-height: 66vh;
     margin-top: 0;
     padding: 0;
@@ -291,7 +291,7 @@
   .solution-mack-title {
     font-size: 5rem;
     line-height: 4rem;
-    color: #0e1d5d;
+    color: var(--mt-blue);
   }
   .solution-info1 {
     padding: 50px 50px 0 50px;
@@ -577,7 +577,7 @@
     background: #333;
   }
   .swiper-bgc-blue {
-    background: #0e1d5d;
+    background: var(--mt-blue);
     height: auto;
   }
   .swiper-pagination {
@@ -683,7 +683,7 @@
     width: 100%;
     position: relative;
     display: block;
-    background-color: #0e1d5d;
+    background-color: var(--mt-blue);
   }
   .about {
     position: relative;
@@ -695,7 +695,7 @@
     position: relative;
     height: auto;
     padding: 50px 10px 0 10px;
-    background-color: #0e1d5d;
+    background-color: var(--mt-blue);
   }
   .about-text {
     position: absolute;

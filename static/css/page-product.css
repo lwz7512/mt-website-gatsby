@@ -19,7 +19,7 @@
   position: relative;
   width: 100vw;
   height: auto;
-  background: #0e1d5d;
+  background: var(--mt-blue);
 }
 
 .swiperSecond .slick-dots,
@@ -33,7 +33,7 @@
 }
 .solution-banner{
   height: 600px;
-  background-color: #0e1d5d;
+  background-color: var(--mt-blue);
   overflow: hidden;
 }
 .solution-banner img {
@@ -79,7 +79,7 @@
   margin-top: -80px;
 }
 .solution-active {
-  background-color: #0e1d5d !important;
+  background-color: var(--mt-blue) !important;
   color: #fff !important;
   font-size: 3rem;
   line-height: 6rem;
@@ -103,14 +103,12 @@
   /* padding: 0 20px; */
 }
 .solution-box-4 {
-  /* background-color: #0e1d5d; */
   margin: 0;
   min-height: 280px;
   margin-bottom: 50px;
-  /* border-radius: 5px; */
 }
 .solution-box-blue {
-  background-color: #0e1d5d;
+  background-color: var(--mt-blue);
 }
 .solution-box-write {
   background-color: #fff;
@@ -171,14 +169,14 @@
   float: left;
 }
 .title-blue {
-  color: #0e1d5d !important;
+  color: var(--mt-blue) !important;
   border-bottom: 1px solid rgba(0, 0, 0, .075) !important;
 }
 .desc-blue {
   color: #0f2583 !important;
 }
 .solution-container-up {
-  background-color: #0e1d5d;
+  background-color: var(--mt-blue);
   min-height: 66vh;
   margin-top: -15vh;
   padding: 20vh 0 0 0;
@@ -233,12 +231,12 @@
 .solution-banner-atlanet{
   height: 600px;
   margin-top: 0;
-  background-color: #0e1d5d;
+  background-color: var(--mt-blue);
   overflow: hidden;
 }
 .solution-mack-title {
   font-size: 5rem;
-  color: #0e1d5d;
+  color: var(--mt-blue);
 }
 .solution-mack-desc {
   font-size: 1.5rem;
