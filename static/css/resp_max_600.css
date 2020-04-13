@@ -484,7 +484,7 @@
 /* ----------------------------------------------- */
   .index-banner {
     width: 100vw;
-    margin-top: 45px;
+    margin-top: 43px;
     height: calc(100vh - 80px);
   }
 
@@ -493,7 +493,7 @@
   }
   
   .index-bannerBg-01 {
-    background-image: url('../img/banner_fix.jpg');
+    background-image: url('../img/banner_fix_pro.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center center; 
