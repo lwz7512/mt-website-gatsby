@@ -485,7 +485,7 @@
   .index-banner {
     width: 100vw;
     margin-top: 45px;
-    height: calc(100vh - 30px);
+    height: calc(100vh - 80px);
   }
 
   .col-left-info {
