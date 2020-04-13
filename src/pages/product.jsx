@@ -18,14 +18,14 @@ import { scrollTo as animateTo } from "../utils/ui-helper"
 
 export default function ProductPage() {
 
-    const [hash, setHash] = useState('#SEAFDCORP');
+    const [hash, setHash] = useState('#FISHERMEN');
     const [point, setPoint] = useState(0);
 
     const HideBullet   = 'swiper-pagination-bullet'
     const ActiveBullet = 'swiper-pagination-bullet swiper-pagination-bullet-active'
 
     useEffect(() => {
-        const nwhs = window.location.hash || '#SEAFDCORP' // default
+        const nwhs = window.location.hash || '#FISHERMEN' // default
         setHash(nwhs)
         // hide the top navigtion bar lazyly
         setTimeout(() => {
@@ -100,16 +100,6 @@ export default function ProductPage() {
             <div className="nav-box">
                 <ul id="myTab" className="nav nav-tabs nav-justified" >
                     <li role="presentation" 
-                        className={hash==='#SEAFDCORP'?'active':''}
-                        onClick={()=>hashChangeHandler('#SEAFDCORP')}>
-                        <a href="#SEAFDCORP" role="tab" data-toggle="pill">
-                            <svg className="icon" aria-hidden="true">
-                                <use xlinkHref="#mt-icon-test"></use>
-                            </svg>
-                            &nbsp;&nbsp;Seafood Companies
-                        </a>
-                    </li>
-                    <li role="presentation" 
                         className={hash==='#FISHERMEN'?'active':''}
                         onClick={()=>hashChangeHandler('#FISHERMEN')}>
                         <a href="#FISHERMEN" role="tab" data-toggle="pill">
@@ -117,6 +107,16 @@ export default function ProductPage() {
                                 <use xlinkHref="#mt-winfo-icon-chuanbotuli"></use>
                             </svg>
                             &nbsp;&nbsp;Fishermen
+                        </a>
+                    </li>
+                    <li role="presentation" 
+                        className={hash==='#SEAFDCORP'?'active':''}
+                        onClick={()=>hashChangeHandler('#SEAFDCORP')}>
+                        <a href="#SEAFDCORP" role="tab" data-toggle="pill">
+                            <svg className="icon" aria-hidden="true">
+                                <use xlinkHref="#mt-icon-test"></use>
+                            </svg>
+                            &nbsp;&nbsp;Seafood Companies
                         </a>
                     </li>
                 </ul>

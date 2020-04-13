@@ -40,7 +40,7 @@ const IndexPage = () => (
                                                 <p className="col-left-title">Sea Cucumber Fishing Strategy</p>
                                                 <p className="col-left-more">Learn More ></p>
                                             </div>
-                                            <img src="./img/pro_04.png" className="solution-pro-right" />
+                                            <img src="./img/pro_04_fix.jpg" className="solution-pro-right" />
                                         </div>
                                       </Link>
                                   </div>
@@ -53,7 +53,7 @@ const IndexPage = () => (
                                                 </p>
                                                 <p className="col-left-more">Learn More ></p>
                                             </div>
-                                            <img src="./img/pro_03_fix.png" className="solution-pro-right" />
+                                            <img src="./img/pro_03_fix.jpg" className="solution-pro-right" />
                                         </div>
                                       </Link>
                                   </div>
@@ -66,17 +66,6 @@ const IndexPage = () => (
               <div className="pad-50-bottom forSomeBody">
                   <div className="row">
                       <div className="col-md-6 col-sm-12 forSomeBox">
-                        <Link to="/product#SEAFDCORP">
-                          <div className="col-fs-box">
-                              <div className="col-for-info" >
-                                  <p className="col-left-title">For <br />Seafood<br />Companies</p>
-                                  <p className="col-left-more">Learn More ></p>
-                              </div>
-                              <img src="./img/for_01.png" className="for-img" />
-                          </div>
-                        </Link>
-                      </div>
-                      <div className="col-md-6 col-sm-12 forSomeBox">
                         <Link to="/product#FISHERMEN">
                           <div className="col-fs-box">
                               <div className="col-for-info" >
@@ -84,6 +73,18 @@ const IndexPage = () => (
                                   <p className="col-left-more">Learn More ></p>
                               </div>
                               <img src="./img/for_02.jpg" className="for-img" />
+                          </div>
+                        </Link>
+                      </div>
+
+                      <div className="col-md-6 col-sm-12 forSomeBox">
+                        <Link to="/product#SEAFDCORP">
+                          <div className="col-fs-box">
+                              <div className="col-for-info" >
+                                  <p className="col-left-title">For <br />Seafood<br />Companies</p>
+                                  <p className="col-left-more">Learn More ></p>
+                              </div>
+                              <img src="./img/for_01.png" className="for-img" />
                           </div>
                         </Link>
                       </div>

@@ -67,7 +67,7 @@ const EnviroSlider = () => {
         <div className="solution-pro-box">
           <img className="solution-pro-base" src="/img/solution/Environment_Monitoring_System_06.jpg" />
           <p className="solution-pro-title">
-          Sensors Customized to You Need: Temperature, Oxygen, Light, pH, Ammonia, Ultrasonic Water Flow, Salinity, and More
+          Sensors Customized to You Needs: Temperature, Oxygen, Light, pH, Ammonia, Ultrasonic Water Flow, Salinity, and More
           </p>
         </div>
       </div>

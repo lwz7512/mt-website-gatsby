@@ -16,7 +16,7 @@
   height: 100%;
 }
 .slick-dots {
-  bottom: 20px;
+  bottom: 25px;
 }
 /* ---- end of full height background --- */
 
@@ -134,4 +134,13 @@
 /* index slider robot image height */
 .swiperImg {
   height: 360px;
+}
+
+.col-left-title {
+  font-size: 3rem;
+  color: #222;
+  line-height: 40px;
+}
+.col-left-more {
+  font-size: 14px;
 }

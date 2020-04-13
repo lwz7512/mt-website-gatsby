@@ -31,7 +31,7 @@ const SecuritySlider = () => {
         <div className="solution-pro-box">
           <img className="solution-pro-base" src="/img/solution/Security_Camera_System_02.jpg" />
           <p className="solution-pro-title">
-          Local Storage and Cloud Backup—Dual Protection to Safeguard Your Data
+          Local Storage and Cloud Backup - Dual Protection to Safeguard Your Data
           </p>
         </div>
       </div>
